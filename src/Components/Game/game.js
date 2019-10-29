@@ -1,7 +1,7 @@
 import React from "react";
-import Board from './Board';
+import Board from '../Board/board';
 import calculateWinner from './calculateWinner';
-import '../Styles/Game.css';
+import '../../Styles/Game.css';
 
 class Game extends React.Component {
 
